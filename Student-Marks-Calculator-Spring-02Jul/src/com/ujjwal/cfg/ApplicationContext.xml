@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+          
+        <bean id="cal" class="com.ujjwal.sbean.Student">
+       <!-- <property name="student_name" value="Shrinath"></property>
+        <property name="student_rollNo" value="29"></property>
+        <property name="math_Marks" value="92"></property>
+        <property name="physics_Marks" value="80"></property>
+        <property name="chemistry_marks" value="85"></property>
+        <property name="physicalEdu_marks" value="80"></property>
+        <property name="english_marks" value="84"></property>
+        <property name="isExamAttended" value="false"></property>
+       -->
+       <constructor-arg  value="Shrinath"></constructor-arg>
+        <constructor-arg name="student_rollNo" value="29"></constructor-arg>
+        <constructor-arg name="math_Marks" value="92"></constructor-arg>
+        <constructor-arg name="physics_Marks" value="80"></constructor-arg>
+        <constructor-arg name="chemistry_marks" value="85"></constructor-arg>
+        <constructor-arg name="physicalEdu_marks" value="80"></constructor-arg>
+        <constructor-arg name="english_marks" value="84"></constructor-arg>
+        <constructor-arg name="isExamAttended" value="false"></constructor-arg>
+        
+        </bean>
+
+          
+</beans>
+
