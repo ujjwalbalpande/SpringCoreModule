@@ -1,6 +1,6 @@
 package com.ujjwal.sbean;
 
-public class Student 
+public class Students 
 {
 	private String student_name;
 	private int student_rollNo;
@@ -12,7 +12,7 @@ public class Student
 	private boolean isExamAttended;
 	private double average ;
 	
-	public Student(String student_name, int student_rollNo, double math_Marks, double physics_Marks,
+	public Students(String student_name, int student_rollNo, double math_Marks, double physics_Marks,
 			double chemistry_marks, double english_marks, double physicalEdu_marks, boolean isExamAttended
 			) 
 	{
