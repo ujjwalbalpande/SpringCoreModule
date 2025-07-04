@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- DayScholars -->
+    <bean id="s1" class="com.ujjwal.sbean.DayScholar">
+        <constructor-arg value="Virat"/>
+        <constructor-arg value="101"/>
+        <constructor-arg value="4000"/>
+        <property name="transportFee" value="3000"/>
+        <property name="amount" value="13000"/>
+    </bean>
+
+    <bean id="s2" class="com.ujjwal.sbean.DayScholar">
+        <constructor-arg value="Dhoni"/>
+        <constructor-arg value="102"/>
+        <constructor-arg value="4000"/>
+        <property name="transportFee" value="3000"/>
+        <property name="amount" value="3000"/>
+    </bean>
+
+    <bean id="s3" class="com.ujjwal.sbean.DayScholar">
+        <constructor-arg value="Rohit"/>
+        <constructor-arg value="103"/>
+        <constructor-arg value="4000"/>
+        <property name="transportFee" value="3000"/>
+        <property name="amount" value="7000"/>
+    </bean>
+
+    
+    <bean id="h1" class="com.ujjwal.sbean.Hosteller">
+        <constructor-arg value="KL Rahul"/>
+        <constructor-arg value="201"/>
+        <constructor-arg value="5000"/>
+        <property name="hostelFee" value="4000"/>
+        <property name="amount" value="8000"/>
+    </bean>
+
+</beans>
