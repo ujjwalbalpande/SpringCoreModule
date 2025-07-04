@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="cust" class="com.ujjwal.sbean.Customer">
+		<property name="firstName" value="Raj"></property>
+		<property name="lastName" value="Roy"></property>
+	</bean>
+	<bean id="acc" class="com.ujjwal.sbean.Account">
+		<property name="accountNo" value="1231231"></property>
+		<property name="balance" value="4000.0"></property>
+		<property name="interestRate" value="5.5"></property>
+		<property name="customer" ref="cust"></property>
+	</bean>
+
+</beans>
